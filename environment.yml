@@ -1,0 +1,20 @@
+name: clv_predictive_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.16
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - pymc-marketing
+  - streamlit
+  - scikit-learn
+  - u8darts-notorch
+  - pip:
+    - --index-url https://download.pytorch.org/whl/cu118
+    - torch
+    - torchvision
+    - torchaudio
