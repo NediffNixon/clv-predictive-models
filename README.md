@@ -54,6 +54,7 @@ clv-prediction-models/
 │   └── ... (planned)
 ├── src/                       # Source code (future development)
 ├── environment.yml           # Dependencies
+├── LICENSE                   # MIT License
 └── README.md                  # Project documentation
 ```
 
