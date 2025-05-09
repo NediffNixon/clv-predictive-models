@@ -46,6 +46,7 @@ The project takes a hybrid approach to CLV prediction:
 ```
 clv-prediction-models/
 ├── data/                      # Data directory (not included in repo)
+│   ├── raw/
 ├── dashboards/                # Result dashboards (future development)
 ├── docs/
 │   ├── dunnhumby - The Complete Journey User Guide.pdf
