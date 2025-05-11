@@ -3,7 +3,7 @@
 [![Darts](https://img.shields.io/badge/Darts-Time_Series_ML-orange.svg)](https://unit8co.github.io/darts/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> **Note**: This project is in the early development stage. Currently working on data exploration and feature engineering.
+> **Note**: This project is in the early development stage. Currently working on feature engineering and probabilistic model development.
 
 ## Project Overview
 
@@ -51,9 +51,12 @@ clv-prediction-models/
 ├── docs/
 │   ├── dunnhumby - The Complete Journey User Guide.pdf
 ├── notebooks/                 # Jupyter notebooks for analysis
-│   ├── 01_data_exploration.ipynb    # Current stage
+│   ├── 01_data_exploration.ipynb
+│   ├── 02_feature_engineering.ipynb    # Current stage
+│   ├── 03_probabilistic_models.ipynb    # Current stage
 │   └── ... (planned)
 ├── src/                       # Source code (future development)
+├── .gitignore                # Directories to ignore
 ├── environment.yml           # Dependencies
 ├── LICENSE                   # MIT License
 └── README.md                  # Project documentation
@@ -62,8 +65,8 @@ clv-prediction-models/
 ## Current Progress
 
 - [x] Project setup and initial exploration
-- [ ] Feature engineering and RFM analysis
-- [ ] Probabilistic CLV model implementation
+- [x] Feature engineering and RFM analysis
+- [x] Probabilistic CLV model implementation
 - [ ] Time series model implementation with Darts
 - [ ] Hybrid model development and evaluation
 - [ ] Customer segmentation based on CLV
@@ -109,10 +112,13 @@ jupyter notebook notebooks/01_data_exploration.ipynb
 - pymc-marketing
 - scikit-learn
 - streamlit (for future dashboard)
+- jax (for GPU based training)
+- PyTorch (for deep learning models)
+
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache license 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
